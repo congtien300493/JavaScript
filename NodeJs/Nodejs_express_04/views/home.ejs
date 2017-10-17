@@ -1,0 +1,12 @@
+<%- include('./include/header.ejs') %>
+<body>
+    <form action="/dangnhap" method="POST" enctype="multipart/form-data"> 
+        <input type="text" name="username" placeholder="Username" id="username">
+        <br><br>
+        <input type="password" name="password" placeholder="Password" id="password">
+        <br><br>
+        <input type="file" name="avata">
+        <button>Sign In</button>
+    </form>
+</body>
+<%- include('./include/footer.ejs') %>
