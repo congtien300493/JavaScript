@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Thông Tin Sinh Vien</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+    </head>
+    <body>
+        <img src="sach.png" alt="hinh sach">
+        <h3>Danh Sách Sinh Viên</h3>
+         <% ArrSinhvien.forEach(sinhvien =>{ %>
+            <h3><%=sinhvien.hoten%></h3>
+            <h3><%=sinhvien.diachi%></h3>
+            <h3><%=sinhvien.diemtb%></h3>
+            <hr>
+         <%});%>
+    </body>
+    <script src="reload/reload.js"></script>
+</html>
