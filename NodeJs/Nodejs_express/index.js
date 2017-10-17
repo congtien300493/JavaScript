@@ -1,0 +1,3 @@
+function tinh(a,b){
+	
+}
